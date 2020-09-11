@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://addons/zylann.hterrain/hterrain.gd" type="Script" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
@@ -6,7 +6,6 @@
 [ext_resource path="res://Textures/aerial_grass_rock_nor_2k.png" type="Texture" id=4]
 [ext_resource path="res://Textures/aerial_grass_rock_diff_2k.png" type="Texture" id=5]
 [ext_resource path="res://Textures/rocks_ground_05_nor_2k.png" type="Texture" id=6]
-[ext_resource path="res://Zombie.tscn" type="PackedScene" id=7]
 [ext_resource path="res://Textures/rocks_ground_05_rough_ao_2k.png" type="Texture" id=8]
 [ext_resource path="res://Enemy.tscn" type="PackedScene" id=9]
 
@@ -37,8 +36,47 @@ transform = Transform( -0.444677, -0.290845, -0.847155, -0.815646, 0.522313, 0.2
 [node name="Player" parent="." instance=ExtResource( 2 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 184.333, 2.49467, 314.455 )
 
-[node name="Zombie" parent="." instance=ExtResource( 7 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 253.145, 1.62087, 315.393 )
-
 [node name="Enemy" parent="." instance=ExtResource( 9 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 246.874, 1.6, 315.334 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 253.724, 1.6, 304.073 )
+
+[node name="Enemy3" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 269.545, 1.6, 270.879 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 258.402, 1.6, 283.325 )
+
+[node name="Enemy5" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 258.205, 1.6, 293.892 )
+
+[node name="Enemy6" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 242.636, 1.6, 322.971 )
+
+[node name="Enemy7" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 238.964, 1.6, 334.647 )
+
+[node name="Enemy8" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 238.496, 1.6, 351.707 )
+
+[node name="Enemy9" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 231.819, 1.6, 346.297 )
+
+[node name="Enemy10" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 264.227, 1.6, 254.619 )
+
+[node name="Enemy11" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 265.952, 1.6, 235.663 )
+
+[node name="Enemy12" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 260.764, 1.6, 225.997 )
+
+[node name="Enemy13" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 256.073, 1.6, 220.536 )
+
+[node name="Enemy14" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 255.424, 1.6, 212.452 )
+
+[node name="Enemy15" parent="." instance=ExtResource( 9 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 252.041, 1.6, 202.865 )

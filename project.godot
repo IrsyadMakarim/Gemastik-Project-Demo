@@ -27,7 +27,7 @@ _global_script_class_icons={
 [application]
 
 config/name="TerrainTest"
-run/main_scene="res://Main.tscn"
+run/main_scene="res://TitleScreen.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
